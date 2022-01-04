@@ -2,38 +2,75 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-.container{
-    display: flex;
-    margin-left: 80px;
-}
-
 h1{
     font-size: 50px;
-    font-weight: 700;
 }
-.color{
-    color:#FFB938;
+h2{
+    font-size: 40px;
 }
-.about_me_section{
-    display: flex;
-    background: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.banner-section{
+display: flex;
 }
-
 .half_width{
     width: 50%;
+    padding: 5%;
 }
 .half_width img{
     width: 80%;
-    padding-left: 50px;
+    
+}
+.color{
+    color: orange;
 }
 .link_button{
     text-decoration: none;
     background-color: orange;
     background-image: linear-gradient(#FB6656,#FB6656);
-    padding: 10px 30px;
+    padding: 12px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream_section{
+display: flex;
+}
+.my_experiences{
+display: flex;
+}
+.experience_section{
+background: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position:left ;
+margin-bottom: 150px;
 
+}
+
+.experience_item{
+width: 40%;
+box-shadow: 10px 10px 40px gray;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 5px;
+
+height: 400px;
+padding-left: 20px;
+}
+.experience_item p{
+line-height:30px;
+margin-top: 30px;
+
+}
+#first_experience{
+border-image: linear-gradient(orange,tomato);
+border-image-slice: 1;
+border-left: 7px solid;
+}
+#second_experience{
+border-image: linear-gradient(blue, cyan);
+border-image-slice: 1;
+border-left: 7px solid;
+}
+footer p{
+
+text-align: center;
 }
