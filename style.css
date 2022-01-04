@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin-left: 80px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.color{
+    color:#FFB938;
+}
+.about_me_section{
+    display: flex;
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half_width{
+    width: 50%;
+}
+.half_width img{
+    width: 80%;
+    padding-left: 50px;
+}
+.link_button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(#FB6656,#FB6656);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
