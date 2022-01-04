@@ -35,7 +35,10 @@ background-repeat: no-repeat;
     font-weight: 700;
 }
 .dream_section{
-display: flex;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .my_experiences{
 display: flex;
